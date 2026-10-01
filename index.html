@@ -13,8 +13,7 @@
          font:16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
   main { max-width:720px; margin:0 auto; padding:32px 16px 64px; }
   h1 { font-size:28px; line-height:1.2; margin:0 0 4px; }
-  h2 { font-size:20px; margin:32px 0 8px; }
-  p, li { color:var(--ink); }
+  h2 { font-size:20px; margin:28px 0 8px; }
   .meta { color:var(--muted); margin:0 0 24px; }
   hr { border:0; border-top:1px solid var(--rule); margin:48px 0; }
   a { color:var(--accent); }
@@ -27,70 +26,38 @@
 
 <section id="uk" lang="uk">
 <h1>Політика конфіденційності Kudy</h1>
-<p class="meta">Набирає чинності: 1 жовтня 2026 р. · Розробник: HobbitsEye · Контакт: <a href="mailto:kudy.dev@gmail.com">kudy.dev@gmail.com</a></p>
+<p class="meta">Набирає чинності: 1 жовтня 2026 р. · HobbitsEye · <a href="mailto:kudy.dev@gmail.com">kudy.dev@gmail.com</a></p>
 
-<p>Kudy — застосунок для обліку особистих витрат. Його задумано так, щоб ваші фінансові дані залишалися лише у вас.</p>
+<h2>Ваші дані</h2>
+<p>Усі витрати й налаштування зберігаються лише на вашому пристрої, у зашифрованому вигляді. Kudy не має акаунтів і серверів, не збирає й не передає ваші дані, не використовує аналітику та рекламу.</p>
 
-<h2>Що зберігає застосунок</h2>
-<ul>
-  <li><b>Витрати:</b> сума, дата, категорія, нотатка. Зберігаються лише на вашому пристрої, у зашифрованій базі. Ключ шифрування лежить у захищеному сховищі Android (Keystore).</li>
-  <li><b>Налаштування:</b> мова, тема, дозвіл на онлайн-розпізнавання мовлення. Теж лише на пристрої.</li>
-</ul>
-<p>Ми не маємо серверів для ваших даних, не створюємо акаунтів і не отримуємо копій ваших витрат. У самого застосунку немає дозволу на доступ до інтернету. Аналітики, трекерів, звітів про збої й реклами немає.</p>
+<h2>Мікрофон</h2>
+<p>Мікрофон працює лише під час запису витрати. Мовлення розпізнає вбудований сервіс мовлення Android. Онлайн-розпізнавання вмикається тільки у вашому налаштуванні.</p>
 
-<h2>Мікрофон і розпізнавання мовлення</h2>
-<p>Мікрофон працює лише тоді, коли ви утримуєте кнопку запису, фіксуєте запис або запускаєте його з віджета чи ярлика. Мовлення розпізнає системний сервіс Android (сервіс мовлення Google). Kudy отримує від нього лише розпізнаний текст і не зберігає та не надсилає аудіо.</p>
-<ul>
-  <li>Якщо на пристрої є офлайн-пакет мови, розпізнавання відбувається на самому пристрої.</li>
-  <li>Якщо офлайн-пакета немає і ви <b>явно дозволили</b> онлайн-розпізнавання, аудіо фрази обробляє Google відповідно до <a href="https://policies.google.com/privacy">Політики конфіденційності Google</a>. Цей дозвіл можна вимкнути в налаштуваннях Kudy будь-коли.</li>
-</ul>
-
-<h2>Експорт</h2>
-<p>Експорт у CSV створюється лише на ваш запит і передається через системне меню «Поділитися» туди, куди ви самі оберете. Тимчасовий файл видаляється одразу після цього.</p>
-
-<h2>Видалення даних</h2>
-<p>Окремий запис можна видалити в застосунку. Видалення застосунку стирає всі його дані з пристрою. На наших серверах нічого не зберігається, тож видаляти там нічого.</p>
-
-<h2>Діти</h2>
-<p>Kudy призначений для дорослих і не орієнтований на дітей до 18 років.</p>
+<h2>Видалення</h2>
+<p>Будь-який запис можна видалити в застосунку. Видалення застосунку стирає всі його дані з пристрою.</p>
 
 <h2>Зміни</h2>
-<p>Якщо обробка даних зміниться (наприклад, з'явиться реклама чи синхронізація), ми оновимо цю сторінку до виходу відповідної версії й змінимо дату вгорі.</p>
+<p>Якщо щось зміниться, ми оновимо цю сторінку до виходу нової версії.</p>
 </section>
 
 <hr>
 
 <section id="en" lang="en">
 <h1>Kudy privacy policy</h1>
-<p class="meta">Effective: October 1, 2026 · Developer: HobbitsEye · Contact: <a href="mailto:kudy.dev@gmail.com">kudy.dev@gmail.com</a></p>
+<p class="meta">Effective: October 1, 2026 · HobbitsEye · <a href="mailto:kudy.dev@gmail.com">kudy.dev@gmail.com</a></p>
 
-<p>Kudy is a personal expense tracker designed so that your financial data stays with you.</p>
+<h2>Your data</h2>
+<p>All expenses and settings are stored only on your device, encrypted. Kudy has no accounts or servers, does not collect or share your data, and uses no analytics or ads.</p>
 
-<h2>What the app stores</h2>
-<ul>
-  <li><b>Expenses:</b> amount, date, category, note. Stored only on your device in an encrypted database. The encryption key is kept in Android's secure storage (Keystore).</li>
-  <li><b>Settings:</b> language, theme, and whether online speech recognition is allowed. Also only on your device.</li>
-</ul>
-<p>We have no servers for your data, create no accounts and receive no copies of your expenses. The app itself has no internet permission. There are no analytics, trackers, crash reports or ads.</p>
+<h2>Microphone</h2>
+<p>The microphone is used only while you record an expense. Speech is recognized by Android's built-in speech service. Online recognition is used only if you turn it on in settings.</p>
 
-<h2>Microphone and speech recognition</h2>
-<p>The microphone is used only while you hold the record button, lock a recording, or start one from the widget or shortcut. Speech is recognized by Android's system speech service (Google's speech service). Kudy receives only the recognized text and does not store or send the audio.</p>
-<ul>
-  <li>If the device has an offline language pack, recognition happens on the device.</li>
-  <li>If it does not, and you have <b>explicitly allowed</b> online recognition, the audio of the phrase is processed by Google under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. You can turn this off in Kudy's settings at any time.</li>
-</ul>
-
-<h2>Export</h2>
-<p>A CSV export is created only when you ask for it and is handed to the system share sheet, to a destination you choose. The temporary file is deleted right after.</p>
-
-<h2>Deleting data</h2>
-<p>You can delete any entry in the app. Uninstalling the app erases all its data from the device. Nothing is stored on our servers, so there is nothing to delete there.</p>
-
-<h2>Children</h2>
-<p>Kudy is intended for adults and is not directed at children under 18.</p>
+<h2>Deletion</h2>
+<p>You can delete any entry in the app. Uninstalling the app erases all its data from the device.</p>
 
 <h2>Changes</h2>
-<p>If data handling changes (for example, ads or sync are added), we will update this page before that version is released and change the date above.</p>
+<p>If anything changes, we will update this page before the new version is released.</p>
 </section>
 </main>
 </body>
